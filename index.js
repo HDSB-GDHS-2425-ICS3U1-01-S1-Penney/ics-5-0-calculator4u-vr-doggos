@@ -1,3 +1,4 @@
+function runProgram(){
 let choices = prompt ("Welcome to Another Calculator app! Press 1 to try the Calculator or 2 to try the Unit conversions")
 
 if (choices == 1){
@@ -34,10 +35,16 @@ if (opperation1 == "-"){
 if (unitChoice == 1){
     let numb3 = prompt ("Please input the inches that you would like converted to cm")
     console.log (numb3 * 2.54)
-}
 }else if (unitChoice == 2){
     let numb4 = prompt("Please input the pounds you would like converted into Kg")
     console.log(numb4 * 2.20462)
-}else {
-    console.log("Please input the correct terms ")
+}else if (unitChoice == 3){
+    let numb5 = prompt ("Hi please input the miles you would like converted into Km")
+console.log (numb5 * 1.609344)
+
+}else 
+console.log("Please input the correct terms ")
+}else 
+checkString()
 }
+runProgram()
