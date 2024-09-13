@@ -35,4 +35,9 @@ if (unitChoice == 1){
     let numb3 = prompt ("Please input the inches that you would like converted to cm")
     console.log (numb3 * 2.54)
 }
+}else if (unitChoice == 2){
+    let numb4 = prompt("Please input the pounds you would like converted into Kg")
+    console.log(numb4 * 2.20462)
+}else {
+    console.log("Please input the correct terms ")
 }
