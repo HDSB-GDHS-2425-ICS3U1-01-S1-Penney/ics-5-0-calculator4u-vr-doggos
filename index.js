@@ -7,7 +7,7 @@ if (numb1 == "0" || numb1 == "1" || numb1 == "2" || numb1 == "3" || numb1 == "4"
     console.log ("Your first Number works")
 }else console.log("Please reinput the first number :|")
 
-let opperation1 = prompt ("The opperation goes here. you can use To divide use a backslash/.")
+let opperation1 = prompt ("The opperation goes here. please use any of these signs +,-,x,*,/ or a ^ to square a number")
 if (opperation1 == "-" || opperation1 == "-" || opperation1 == "+" || opperation1 == "*" || opperation1 == "x") {
     console.log ("Opperation successful")
 }else console.log("Please reinput the opperation sign")
@@ -29,6 +29,8 @@ if (opperation1 == "-"){
     console.log( numb1 * numb2)
 }else if (opperation1 == "/") {
     console.log( numb1 / numb2)
+}else if (opperation1 == "^"){
+    console.log(numb1*numb1)
 }
 } else if (choices == 2){
     let unitChoice = prompt ("Welcome to the Unit Conversion App" )
@@ -45,6 +47,6 @@ console.log (numb5 * 1.609344)
 }else 
 console.log("Please input the correct terms ")
 }else 
-checkString()
+runProgram()
 }
 runProgram()
