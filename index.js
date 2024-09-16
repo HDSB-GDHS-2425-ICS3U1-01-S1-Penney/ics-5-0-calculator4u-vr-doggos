@@ -30,7 +30,7 @@ if (opperation1 == "-"){
 }else if (opperation1 == "/") {
     console.log( numb1 / numb2)
 }else if (opperation1 == "^"){
-    console.log(numb1*numb1)
+    console.log(numb1**numb2)
 }
 } else if (choices == 2){
     let unitChoice = prompt ("Welcome to the Unit Conversion App" )
