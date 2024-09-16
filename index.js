@@ -8,7 +8,7 @@ if (numb1 == "0" || numb1 == "1" || numb1 == "2" || numb1 == "3" || numb1 == "4"
 }else console.log("Please reinput the first number :|")
 
 let opperation1 = prompt ("The opperation goes here. please use any of these signs +,-,x,*,/ or a ^ to square a number")
-if (opperation1 == "-" || opperation1 == "-" || opperation1 == "+" || opperation1 == "*" || opperation1 == "x") {
+if (opperation1 == "-" || opperation1 == "^" || opperation1 == "+" || opperation1 == "*" || opperation1 == "x") {
     console.log ("Opperation successful")
 }else console.log("Please reinput the opperation sign")
 
